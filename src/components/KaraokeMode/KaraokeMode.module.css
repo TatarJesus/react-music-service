@@ -1,0 +1,127 @@
+.karaoke_mode {
+    width: 490px;
+    height: 568px;
+    background-color: #222222;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+    user-select: none;
+}
+
+.karaoke_mode_wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.song_info {
+    width: 490px;
+    height: 120px;
+    padding: 24px;
+    display: flex;
+}
+
+.song_info img {
+    max-width: 72px;
+    max-height: 72px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4);
+    margin-right: 16px;
+}
+
+.info_text {
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.close_karaoke_mode {
+    width: 30px;
+    height: 72px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.close_karaoke_mode button {
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+}
+
+.close_karaoke_mode button:hover {
+    color: #2C33CD;
+}
+
+.song_text {
+    width: 490px;
+    height: 408px;
+}
+
+.song_text_wrapper {
+    width: 488px;
+    max-height: 408px;
+    padding: 24px 12px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.song_text_wrapper::-webkit-scrollbar {
+    width: 8px;
+}
+
+.song_text_wrapper::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.song_text_wrapper::-webkit-scrollbar-thumb {
+    transition: 0.5s;
+    background-color: #535354;
+    border-radius: 20px;
+    margin-right: 3px;
+}
+
+.song_text_wrapper::-webkit-scrollbar-thumb:hover {
+    transition: 0.5s;
+    background-color: #7b7b7b;
+}
+
+.song_line {
+    width: 466px;
+    padding: 8px 12px 10px 12px;
+    color: #e1e3e0;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.song_line:hover {
+    background-color: #2b2b2c;
+    cursor: pointer;
+}
+
+.low_row{
+    min-height: 52px;
+}
+
+.high_row{
+    min-height: 86px;
+}
+
+.footer_karaoke_mode {
+    width: 490px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e1e1e1;
+    font-weight: 500;
+}

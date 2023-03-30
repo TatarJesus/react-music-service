@@ -1,0 +1,9 @@
+export {ReactComponent as PauseSVG} from './Pause.svg';
+export {ReactComponent as PlaySVG} from './Play.svg';
+export {ReactComponent as RepeatSVG} from './Repeat.svg';
+export {ReactComponent as RepeatPlaylistSVG} from './RepeatPlaylist.svg';
+export {ReactComponent as RepeatSongSVG} from './RepeatSong.svg';
+export {ReactComponent as ShuffleSVG} from './Shuffle.svg';
+export {ReactComponent as ShuffleActiveSVG} from './ShuffleActive.svg';
+export {ReactComponent as SkipBackSVG} from './SkipBack.svg';
+export {ReactComponent as SkipForwardSVG} from './SkipForward.svg';

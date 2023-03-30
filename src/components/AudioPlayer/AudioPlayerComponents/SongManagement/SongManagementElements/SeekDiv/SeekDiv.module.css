@@ -1,0 +1,20 @@
+.navigation{
+    width: 610px;
+    height: 7px;
+    background-color: #404040;
+    border-radius: 4px;
+}
+
+.navigation_wrapper{
+    border-radius: 4px;
+    min-width: 100%;
+    background-color: rgba(119, 119, 119, 0.781);
+    cursor: pointer;
+}
+
+.seek_song{
+    width: 0;
+    background-color: #2C33CD;
+    height: 7px;
+    border-radius: 4px;
+}

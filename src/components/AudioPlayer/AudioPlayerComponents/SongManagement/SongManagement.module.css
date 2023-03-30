@@ -1,0 +1,39 @@
+/* Основная часть плеера для управления композицией */
+
+.song_management {
+    width: 780px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+}
+
+.song_control_panel {
+    width: 280px;
+    height: 34px;
+    margin: 28px 250px 0 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.song_progress_bar {
+    height: 53px;
+    width: 712px;
+    margin: 0 34px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.song_current_time{
+    width: 36px;
+    height: 13px;
+    margin-bottom: 10px;
+    color: #8B8B8B;
+}
+
+.song_duration_time{
+    width: 36px;
+    height: 13px;
+    margin-bottom: 10px;
+    color: #8B8B8B;
+}

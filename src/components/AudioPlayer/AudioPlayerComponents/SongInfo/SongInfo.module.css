@@ -1,0 +1,19 @@
+/* Часть плеера с информацией о песне*/
+
+.song_info {
+    width: 570px;
+    height: 115px;
+    display: flex;
+}
+
+.song_info img {
+    margin: 17px 20px;
+    max-width: 81px;
+    max-height: 81px;
+}
+
+.info_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

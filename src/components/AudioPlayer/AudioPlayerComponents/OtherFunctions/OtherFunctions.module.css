@@ -1,0 +1,28 @@
+/* часть музыкального плеера с дополнительным функционалом */
+
+.other_functions {
+    width: 570px;
+    height: 115px;
+    padding: 0px 32px 0px 207px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.other_functions input[type=range]{
+    width: 80px;
+    height: 5px;
+    border-radius: 4px;
+}
+
+.other_functions input[type=range]::-webkit-slider-thumb{
+    width: 0.7em;
+    height: 1.3em;
+}
+
+
+
+
+.activeBut{
+    color: #2C33CD;
+}
